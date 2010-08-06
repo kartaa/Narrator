@@ -1,0 +1,29 @@
+# Writing the script for narrator.
+# Use the format described in sample.script
+# Don't forget to end your script with a -- . 
+# Single line comments can be written, but comment line must start with # .
+
+META : Info regarding meta block.
+
+TITLE : Video's title
+
+GREETMSG : Hi, Welcome
+
+ENDMSG : Thanks for watching.
+
+BY : Author
+
+EMAIL : email@gmail.com
+--
+First line of first block,
+this also adds to first line,
+this too.
+
+Second line,
+a newline creates a new line. This behaviour is taken from wiki editing.
+--
+Second block
+Now I wish to get things a little bit more 'organised'. 
+
+--
+# end 
