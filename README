@@ -1,0 +1,20 @@
+README
+======
+
+Narrator 0.1
+============
+
+Simple to use. Narrates different sections of a transcript 
+to the terminal screen.
+Can be used in presentations, video making etc.
+
+USAGE
+=====
+./narrator.py transcript.script
+
+
+Creating a script for narrator
+------------------------------
+
+Checkout the sample provided in samples folder.
+
