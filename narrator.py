@@ -110,7 +110,7 @@ class Narrator():
             msg += ('Video presented by ' + self.meta['BY'] + '\n')
         if msg == '':
             msg = 'Let\'s rock.\n'
-        msg += 'Start video transcript--\n'
+        msg += 'Start video narration--\n'
         self.__show_text(msg)
     
     def _bye(self):
@@ -122,7 +122,7 @@ class Narrator():
             msg += ('Video presented by ' + self.meta['BY'] + '\n')
         if 'EMAIL' in self.meta:
             msg += ('Contact the author at ' + self.meta['EMAIL'] + '\n')
-        msg = 'Thanks for watching\n'
+        msg += 'Thanks for watching\n'
         self.__show_text(msg)
     
     def check_script(self, path):
@@ -150,7 +150,7 @@ class Narrator():
             if not self.__next_narration(fpr):
                 loop = False
 
-        f.close()
+        fpr.close()
         self._bye()
 
 def check_args():
